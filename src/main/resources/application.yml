@@ -1,0 +1,31 @@
+spring:
+  application:
+    name: RameshsInbox
+  security:
+    oauth2:
+      client:
+        registration:
+          github:
+            client-id: Iv1.43a9b3eba190bf76
+            client-secret: f85b0753bd9e6ea423f6454f2c2d9db161d58422
+  data:
+    cassandra:
+      keyspace-name: main
+      username: nSQsRQmOjsOComhnskMNodjp
+      password: vvQAzZO7pZ+0.ob3Znn9aQ1383,U8WtA66bLj9ZY+AK6Gi_GMoIWyLsGfU2Nz3.r-tZFw-Qstl.EqpDdWDIpiQP6WYSsZ0n0af,l34D.aKXmr7Rwy6_7vrPtmqPxv3FA
+      schema-action: create
+      request:
+        timeout: 10s
+      connection:
+        connect-timeout: 10s
+        init-query-timeout: 10s
+datastax.astra:
+  secure-connect-bundle: secure-connect.zip
+  
+astra:
+  db:
+    id: bedbb6f9-d6bc-41b0-9a14-9d41f642b889-1
+    region: asia-south1
+    keyspace: main
+    application:
+      token: AstraCS:nSQsRQmOjsOComhnskMNodjp:88831ab15923831840b4bdc37cf5b9d26d33f4637ecf2f9f17eda2ceeb9ec4d2
